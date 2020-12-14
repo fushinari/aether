@@ -13,17 +13,14 @@ body {
     word-break: break-word;
 }
 p {
-    margin: 1.5em 0;
+    margin: 1em 0;
 }
 .home-header {
-    min-height: 26rem;
-    max-width: 50rem;
-    margin: 0 -1.2rem -5rem -1.2rem;
-    padding: 1.2rem;
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: center;
     display: flex;
     flex-direction: column;
     z-index: -1;
-    color: white;
     background-position: center;
     background-size: cover;
 }
@@ -33,7 +30,6 @@ p {
     margin-bottom: 3rem;
     max-width: 17rem;
     width: 100%;
-    background-color: white;
     border-radius: 1.2rem;
     box-shadow: 0 0.7rem 2.3rem 0 rgba(0,0,0,0.1);
 }
@@ -42,8 +38,6 @@ p {
     border-radius: 0.8rem;
 }
 .home-blob-text-container {
-    margin: 2em 0;
-    max-width: 30rem;
     line-height: 1.5;
 }
 .home-blob-title{
@@ -58,6 +52,7 @@ p {
 .nav-bar {
     max-width: 60rem;
     width: 100%;
+    margin-top: 1rem;
     padding: 0.4em 0;
     display: flex;
     justify-content: space-between;
@@ -146,7 +141,7 @@ p {
     line-height: 1.9;
 }
 .post-header {
-    margin: 0 0 1.5em 0;
+    margin: 0 0 1em 0;
 }
 .post-title {
     font-size: 1.8em;
@@ -166,9 +161,10 @@ p {
 }
 .dropcase > p:first-of-type::first-letter {
     float: left;
-    font-size: 3em;
-    line-height: 1;
-    margin: 0.08em 0.15em -0.4em 0;
+    font-size: 4em;
+    padding-top: 0.6rem;
+    padding-right: 0.2rem;
+    padding-left: 0em;
     /* initial-letter: 2; Maybe someday*/
 }
 .content {
@@ -183,7 +179,7 @@ p {
     box-shadow: 0 0.7rem 2.3rem 0 rgba(0,0,0,0.1);
 }
 .list-header {
-    margin: 6em 0;
+    margin: 2em 0;
     text-align: center;
 }
 .list-header-title {
@@ -197,7 +193,6 @@ p {
     margin: 0;
 }
 .list-header-content {
-    margin: 5em 0;
     line-height: 1.6em;
 }
 .card-container {
@@ -330,8 +325,12 @@ p {
     box-sizing: border-box !important;
 }
 .side-text-padding {
-    padding-left: 1.2rem !important;
-    padding-right: 1.2rem !important;
+    margin-top: 1.2rem !important;
+    margin-bottom: 1.2rem !important;
+    padding-top: 1.2rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 1.4rem !important;
+    padding-right: 1.4rem !important;
     box-sizing: border-box !important;
 }
 .small-pic {
@@ -454,7 +453,7 @@ footer {
 }
 .footer-icon {
     max-width: 3.2rem;
-    margin: 0;
+    margin-bottom: 1.4rem;
 }
 @media screen and (pointer: coarse) {
     .card-hover {
@@ -477,11 +476,11 @@ footer {
         font-size: 1.15rem;
     }
     .home-header {
-        flex-direction: row;
-        align-items: flex-start;
+        padding: 1.2rem;
+        flex-direction: column;
+        align-items: center;
     }
     .home-blob-text-container {
-        margin: 4rem 2rem 4rem 6rem;
         flex-shrink: 10;
     }
     .home-faceshot-card {
