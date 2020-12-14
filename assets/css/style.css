@@ -137,7 +137,6 @@ p {
 }
 .hamburger-menu-overlay-link {
     text-decoration: none;
-    text-transform: uppercase;
     font-size: 2em;
     line-height: 1.7;
     color: white;
@@ -190,7 +189,6 @@ p {
 .list-header-title {
     margin: 0.1em 0 0.2em 0;
     font-size: 2.2em;
-    text-transform: uppercase;
 }
 .list-header-subtext {
     font-weight: normal;
